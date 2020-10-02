@@ -22,3 +22,20 @@ remind the user to fill in a UofT email (see screenshot below).
 ![alt text](https://github.com/RayZGit/ECE444-F2020-Lab3/blob/master/Week3%20Assignment/week3_activity2_email_notUT.PNG)
 
 ## Activity 3
+- [x] Briefly summarize the difference between SQL or NoSQL database.
+- SQL
+  - SQL is a relational databse
+  - SQL has structured query language with schema 
+  - SQL vertically scalable 
+  - Support join
+  - Most support multi-threading with ACID as standard
+  - Examples: MySQL, PostgreSQL, Oracle
+- NoSQL
+  - NoSQL is a non-relational databse 
+  - NoSQL has unstructured data with dynamic schemas
+  - NoSQL horizontally scalable 
+  - No join
+  - Most use queue for accessing data
+  - Examples: MongoDB, Redis, CouchDB
+  
+  
