@@ -10,6 +10,7 @@ docker run command, Browser, and your docker image).
 Docker image built shown in the following screenshot. Command: docker build -t lab4_activity .
 ![alt text](https://github.com/RayZGit/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/Week4%20and%205%20Assignment/lab4dockerbuild.PNG)
 Docker run as shown in the following screenshot. Command: docker run --name lab4 -d -p 5000:5000 lab4_activity \
+![alt text](https://github.com/RayZGit/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/Week4%20and%205%20Assignment/lab4dockercommandRunning.PNG)
 To check its status. Command: docker ps -a
 ![alt text](https://github.com/RayZGit/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/Week4%20and%205%20Assignment/lab4Dockerrunning.PNG)
 
