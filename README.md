@@ -10,14 +10,21 @@ docker run command, Browser, and your docker image).
 Docker image built shown in the following screenshot. Command: docker build -t lab4_activity .
 ![alt text](https://github.com/RayZGit/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/Week4%20and%205%20Assignment/lab4dockerbuild.PNG)
 Docker run as shown in the following screenshot. Command: docker run --name lab4 -d -p 5000:5000 lab4_activity \
-![alt text](https://github.com/RayZGit/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/Week4%20and%205%20Assignment/lab4dockercommandRunning.PNG)
+![alt text](https://github.com/RayZGit/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/Week4%20and%205%20Assignment/lab4dockercommandRunning.PNG) \
 To check its status. Command: docker ps -a
 ![alt text](https://github.com/RayZGit/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/Week4%20and%205%20Assignment/lab4Dockerrunning.PNG)
 
 Screenshoot for the prof of the docker image
 ![alt text](https://github.com/RayZGit/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/Week4%20and%205%20Assignment/lab4dockerdesktop.PNG)
 ![alt text](https://github.com/RayZGit/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/Week4%20and%205%20Assignment/lab4dockerImage.PNG)
-- [x] Briefly summarize the differences between Docker and Virtual Machine.
+- [x] Briefly summarize the differences between Docker and Virtual Machine. \
+Docker runs natively on Linux and share its kernal of host machine with other containers. \
+It runs a under a  discrete process. \
+Its lightweight because it takes no more memory than others executables. \
+<img src="https://docs.docker.com/images/Container%402x.png" width="250" height="250"/> \
+Vitural Machine runs as a guest OS with virtual access to host resources through a hypervisor \
+Virtual Machine has a certain amount of overhead byeyond what it actuall consumes. \
+<img src="https://docs.docker.com/images/VM%402x.png" width="250" height="250"/> \
 
 # ECE444-F2020-Lab3
 this repo is a clone of https://github.com/miguelgrinberg/flasky
